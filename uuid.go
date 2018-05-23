@@ -1,4 +1,4 @@
-package shortuuid
+package shortuuid // import "github.com/NexoMichael/shortuuid"
 
 import (
 	"encoding/hex"

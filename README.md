@@ -1,8 +1,21 @@
 # DB friendly Short UUID.V1 implementation for Go language
 
-[![Build Status](https://travis-ci.org/NexoMichael/shortuuid.svg?branch=master)](https://travis-ci.org/NexoMichael/shortuuid)
-[![Coverage Status](https://coveralls.io/repos/github/NexoMichael/shortuuid/badge.svg?branch=master)](https://coveralls.io/github/NexoMichael/shortuuid)
-[![GoDoc](http://godoc.org/github.com/NexoMichael/shortuuid?status.svg)](http://godoc.org/github.com/NexoMichael/shortuuid)
+[![BuildStatus Widget]][BuildStatus Result]
+[![CodeCovWidget]][CodeCovResult]
+[![GoReport Widget]][GoReport Status]
+[![GoDoc Widget]][GoDoc Link]
+
+[BuildStatus Result]: https://travis-ci.org/NexoMichael/shortuuid
+[BuildStatus Widget]: https://travis-ci.org/NexoMichael/shortuuid.svg?branch=master)
+
+[GoReport Status]: https://goreportcard.com/report/github.com/NexoMichael/shortuuid
+[GoReport Widget]: https://goreportcard.com/badge/github.com/NexoMichael/shortuuid
+
+[CodeCovResult]: https://coveralls.io/github/NexoMichael/shortuuid
+[CodeCovWidget]: https://coveralls.io/repos/github/NexoMichael/shortuuid/badge.svg?branch=master
+
+[GoDoc Link]: http://godoc.org/github.com/NexoMichael/shortuuid
+[GoDoc Widget]: http://godoc.org/github.com/NexoMichael/shortuuid?status.svg
 
 This package provides fast shortuuid implementation friendly for DB indexes (for UUID V1)
 

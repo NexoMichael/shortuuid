@@ -6,7 +6,7 @@
 [![GoDoc Widget]][GoDoc Link]
 
 [BuildStatus Result]: https://travis-ci.org/NexoMichael/shortuuid
-[BuildStatus Widget]: https://travis-ci.org/NexoMichael/shortuuid.svg?branch=master)
+[BuildStatus Widget]: https://travis-ci.org/NexoMichael/shortuuid.svg?branch=master
 
 [GoReport Status]: https://goreportcard.com/report/github.com/NexoMichael/shortuuid
 [GoReport Widget]: https://goreportcard.com/badge/github.com/NexoMichael/shortuuid

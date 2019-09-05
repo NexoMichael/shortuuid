@@ -1,12 +1,9 @@
 # DB friendly Short UUID.V1 implementation for Go language
 
-[![BuildStatus Widget]][BuildStatus Result]
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FNexoMichael%2Fshortuuid%2Fbadge&style=flat)](https://actions-badge.atrox.dev/NexoMichael/shortuuid/goto)
 [![CodeCovWidget]][CodeCovResult]
 [![GoReport Widget]][GoReport Status]
 [![GoDoc Widget]][GoDoc Link]
-
-[BuildStatus Result]: https://travis-ci.org/NexoMichael/shortuuid
-[BuildStatus Widget]: https://travis-ci.org/NexoMichael/shortuuid.svg?branch=master
 
 [GoReport Status]: https://goreportcard.com/report/github.com/NexoMichael/shortuuid
 [GoReport Widget]: https://goreportcard.com/badge/github.com/NexoMichael/shortuuid
@@ -36,5 +33,5 @@ shortuuid package requires Go >= 1.5.
 
 Copyright (C) 2018 by Mikhail Kochegarov <mikhail@kochegarov.biz>.
 
-UUID package releaed under MIT License.
+UUID package released under MIT License.
 See [LICENSE](https://github.com/NexoMichael/shortuuid/blob/master/LICENSE) for details.

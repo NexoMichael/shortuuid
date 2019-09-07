@@ -24,14 +24,14 @@ Use the `go` command:
 
 ## Requirements
 
-shortuuid package requires Go >= 1.5.
+shortuuid package requires Go >= 1.10.
 
 ## Links
 * [Store UUID in an optimized way](https://www.percona.com/blog/2014/12/19/store-uuid-optimized-way/)
 
 ## Copyright
 
-Copyright (C) 2018 by Mikhail Kochegarov <mikhail@kochegarov.biz>.
+Copyright (C) 2019 by Mikhail Kochegarov <mikhail@kochegarov.biz>.
 
 UUID package released under MIT License.
 See [LICENSE](https://github.com/NexoMichael/shortuuid/blob/master/LICENSE) for details.

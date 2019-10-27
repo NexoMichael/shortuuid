@@ -38,6 +38,7 @@ func TestUUIDStringer(t *testing.T) {
 */
 func BenchmarkUUIDBytes(b *testing.B) {
 	u := []byte("949ea5ff-0bfd-4c4f-8f2c-af3d3edd0641")
+
 	for i := 0; i < b.N; i++ {
 		encodeUUID(u)
 	}
@@ -48,6 +49,7 @@ func BenchmarkUUIDBytes(b *testing.B) {
 */
 func BenchmarkUUID(b *testing.B) {
 	u := "949ea5ff-0bfd-4c4f-8f2c-af3d3edd0641"
+
 	for i := 0; i < b.N; i++ {
 		NewFromString(u)
 	}

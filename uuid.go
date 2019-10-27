@@ -1,3 +1,4 @@
+// Package shortuuid provides fast shortuuid implementation friendly for DB indexes (for UUID V1)
 package shortuuid // import "github.com/NexoMichael/shortuuid"
 
 import (
@@ -14,6 +15,7 @@ func (u UUID) String() string {
 	if u == nil {
 		return ""
 	}
+
 	return decodeUUID(u)
 }
 
@@ -48,7 +50,9 @@ func encodeUUID(u []byte) []byte {
 	if u[8] != '-' || u[13] != '-' || u[18] != '-' || u[23] != '-' {
 		return nil
 	}
+
 	var b1 [8]byte
+
 	copy(b1[:], u[:8])
 	copy(u[0:], u[14:18])
 	copy(u[4:], u[9:13])
@@ -61,5 +65,6 @@ func encodeUUID(u []byte) []byte {
 	if err != nil {
 		return nil
 	}
+
 	return u[:n]
 }
